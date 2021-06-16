@@ -1,13 +1,26 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-image: url(https://thumbs.gfycat.com/SizzlingAdorableBluebreastedkookaburra-small.gif);    
+}
 
-    You can write your own styles here...
+.container {
+    width: 50%;
+    height: 625px;
+    background-color: rgb(33, 34, 34);
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: whitesmoke;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.btn {
+    color: whitesmoke;
+}
+
+.song {
+    margin-top: 1px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
